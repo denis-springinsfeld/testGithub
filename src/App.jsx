@@ -5,6 +5,11 @@ function App() {
     <div className="flex h-screen items-center justify-center bg-gray-100">
       <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1>
       <img src={img} alt="Vite Logo" className="ml-4 h-12 w-12 animate-spin" />
+      <img
+        src={`${import.meta.env.BASE_URL}react.svg`}
+        alt="React Logo"
+        className="ml-4 h-12 w-12"
+      />
     </div>
   );
 }
