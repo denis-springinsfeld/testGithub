@@ -4,4 +4,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/https://github.com/denis-springinsfeld/testGithub/", // Remplacez "repo" par le nom de votre dépôt GitHub
 });
